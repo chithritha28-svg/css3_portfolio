@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect</title>
+    <script>
+        const path = window.location.pathname.replace('/css3_portfolio', '');
+        window.location.href = '/css3_portfolio/?' + encodeURIComponent(path);
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
